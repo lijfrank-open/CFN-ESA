@@ -1,0 +1,8 @@
+matplotlib==3.7.1
+numpy==1.24.3
+pandas==1.5.3
+scikit_learn==1.2.2
+seaborn==0.13.2
+tensorboardX==2.6.1
+tensorboardX==2.6.2.2
+torch==2.0.0
