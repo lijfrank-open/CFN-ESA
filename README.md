@@ -5,7 +5,7 @@ Affiliation: Huazhong University of Science and Technology (HUST)
 
 ## Citation
 ```bibtex
-@article{li2023emotionic,
+@article{li2023cfnesa,
     title={CFN-ESA: A cross-modal fusion network with emotion-shift awareness for dialogue emotion recognition},
     author={Jiang Li and Xiaoping Wang and Yingjian Liu and Zhigang Zeng},
     year={2024},
