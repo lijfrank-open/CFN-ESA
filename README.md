@@ -12,7 +12,7 @@ Affiliation: Huazhong University of Science and Technology (HUST)
     journal = {IEEE Transactions on Affective Computing},
     volume = {},
     pages = {},
-    doi={}
+    doi={10.1109/TAFFC.2024.3389453}
 }
 ```
 

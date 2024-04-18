@@ -1,5 +1,5 @@
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = '3'
+os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 import numpy as np
 import pickle as pk
 import datetime
@@ -45,16 +45,14 @@ parser.add_argument('--cross_drop', type=float, default=0.4, metavar='dropout', 
 
 parser.add_argument('--shift_output_dim', type=int, default=128, help='shift_output_dim')
 parser.add_argument('--shift_drop', type=float, default=0.05, metavar='dropout', help='dropout rate')
-parser.add_argument('--shift_type', default='concat', help='sub/abs_sub/concat/sub_concat/mul')
 
 parser.add_argument('--loss_type', default='sum_class_shift_loss', help='auto_loss/sum_class_shift_loss/class_loss')
 parser.add_argument('--lambd', nargs='+', type=float, default=1.0, help='lambd of loss')
 args = parser.parse_args()
 
-save_path = 'save_model/{}/cross_{}_shift_{}.pth'.format(
+save_path = 'save_model/{}/cross_{}.pth'.format(
     args.Dataset,
-    args.cross_n_layers,
-    args.shift_type)
+    args.cross_n_layers)
 
 MELD_path = '/home/lijfrank/code/dataset/MELD_features/meld_multi_features_mmgcn_cosmic.pkl' 
 IEMOCAP_path = '/home/lijfrank/code/dataset/IEMOCAP_features/iemocap_multi_features_mmgcn_cosmic.pkl'

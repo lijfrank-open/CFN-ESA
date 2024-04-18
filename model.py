@@ -29,7 +29,7 @@ class CFNESA(nn.Module):
         self.linear_cat = nn.Linear(3*args.cross_hidden_dim, args.cross_hidden_dim)
         self.drop_cat = nn.Dropout(args.cross_drop)
 
-        self.emotion_shift = EmoShift(d_model=args.cross_hidden_dim,output_dim=args.shift_output_dim,dropout=args.shift_drop,diff_type=args.shift_type)
+        self.emotion_shift = EmoShift(d_model=args.cross_hidden_dim,output_dim=args.shift_output_dim,dropout=args.shift_drop)
         
         self.smax_fc = nn.Linear(args.cross_hidden_dim, n_classes)
         
