@@ -21,6 +21,9 @@ Checking and installing environmental requirements
 ```python
 pip install -r requirements.txt
 ```
+## Datasets
+链接: https://pan.baidu.com/s/1u1efdbBV3HP8FLj3Gy1bvQ
+提取码: ipnv
 
 ## Acknowledgement
 We are grateful to [COSMIC](https://github.com/declare-lab/conv-emotion/tree/master/COSMIC) and [MMGCN](https://github.com/hujingwen6666/MMGCN) for sharing their codes and datasets.
