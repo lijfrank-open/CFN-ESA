@@ -1,17 +1,18 @@
 # CFN-ESA
-The official implementation of the paper "[CFN-ESA: A cross-modal fusion network with emotion-shift awareness for dialogue emotion recognition](https://arxiv.org/abs/2307.15432)", which has been accepted by IEEE Transactions on Affective Computing (TAFFC).  
+The official implementation of the paper "[CFN-ESA: A cross-modal fusion network with emotion-shift awareness for dialogue emotion recognition](https://doi.org/10.1109/TAFFC.2024.3389453)", which has been accepted by IEEE Transactions on Affective Computing (TAFFC).  
 Authors: Jiang Li, Xiaoping Wang, Yingjian Liu, Zhigang Zeng  
 Affiliation: Huazhong University of Science and Technology (HUST)  
 
 ## Citation
 ```bibtex
 @article{li2023cfnesa,
-    title={CFN-ESA: A cross-modal fusion network with emotion-shift awareness for dialogue emotion recognition},
+    title={{CFN-ESA}: A cross-modal fusion network with emotion-shift awareness for dialogue emotion recognition},
     author={Jiang Li and Xiaoping Wang and Yingjian Liu and Zhigang Zeng},
     year={2024},
     journal = {IEEE Transactions on Affective Computing},
-    volume = {},
-    pages = {},
+    volume = {15},
+    number={4},
+    pages = {1919-1933},
     doi={10.1109/TAFFC.2024.3389453}
 }
 ```
